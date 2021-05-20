@@ -15,7 +15,7 @@
       </div>
       <br>
       <div class="input  m-3">
-        <button class="btn pl-5 pr-5 btn-outline-secondary" type="button" (click)="shift()" id="pop">POP FROM
+        <button class="btn pl-2 pr-2 btn-outline-secondary" type="button" (click)="shift()" id="pop">POP FROM
           FRONT</button>
       </div>
     </div>
@@ -30,7 +30,7 @@
   </div>
 
   <div class="row m-3">
-    Popped Values: -> <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 col-xs-12">
+    Popped Values: -> <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 col-xs-12 mb-4">
       <div class="list">
         <div class="pop_columns" *ngFor="let item of poppedValues">
           <div>{{item}}</div>
@@ -38,6 +38,8 @@
       </div>
     </div>
     <br>
+    <hr style="border-bottom: 1px solid #111;width: 100%;" />
+
     Array Items-> <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 col-xs-12">
       <div class="arrayValues">
         <div class="list_columns" *ngFor="let item of array">
